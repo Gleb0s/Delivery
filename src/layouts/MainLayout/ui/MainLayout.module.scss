@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1; /* устанавливаем растягиваемость main на всю доступную высоту */
+}
+
+.container {
+  max-width: var(--container-body);
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 100px;
+}

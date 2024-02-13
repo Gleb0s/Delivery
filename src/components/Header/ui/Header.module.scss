@@ -1,0 +1,44 @@
+.header {
+  position: relative;
+  background: var(--light-bg);
+  flex-shrink: 0;
+}
+
+.container {
+  max-width: var(--container-main);
+  margin: 0 auto;
+}
+.content {
+  height: var(--content-header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font: var(--font-m);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  min-height: 40px;
+  min-width: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+
+  svg {
+    color: #fff;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

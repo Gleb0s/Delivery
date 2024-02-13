@@ -11,6 +11,7 @@
 .normal {
   background: var(--button-bg-color);
   transition: all 0.3s ease 0s;
+  border: 2px solid var(--icon-color);
 
   &:hover {
     background: var(--inverted-button-bg-color);

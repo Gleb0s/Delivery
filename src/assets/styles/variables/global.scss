@@ -2,7 +2,7 @@
   --font-family-main: "Montserrat", sans-serif;
   --font-family-header: "Inter", sans-serif;
 
-  /* Text */
+  /* Text Size */
   /* S */
   --font-size-s: 16px;
   --font-line-s: 22px;
@@ -23,5 +23,7 @@
   --container-main: 1335px;
 
   /* Header */
-  --content-header: 80px;
+  --content-header-height: 80px;
+  --content-footer-height: 200px;
+
 }

@@ -15,11 +15,15 @@
   justify-content: space-between;
 }
 .logo {
-  font: var(--font-m);
-  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 10px;
+
+  p{
+    color: var(--primary-color);
+    font: var(--font-m);
+    font-weight: 700;
+  }
 }
 
 .button {

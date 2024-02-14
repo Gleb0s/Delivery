@@ -1,0 +1,612 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "product": "pizzas",
+      "name": "4 сезона",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "rating": 2,
+      "ingredients": [
+        "Бекон",
+        "Ветчина",
+        "Грибы",
+        "Курица",
+        "Лук",
+        "Маслины",
+        "Огурцы"
+      ],
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 200
+        },
+        {
+          "name": "28 см",
+          "price": 300
+        },
+        {
+          "name": "30 см",
+          "price": 400
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product": "pizzas",
+      "name": "EASY PEASY чикен а-ля хрен",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Соус Карбонара"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product": "pizzas",
+      "name": "Чикен Сладкий Чили",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "rating": 3,
+      "ingredients": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо",
+        "Сыр Моцарелла",
+        "Томатный соус"
+      ],
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "product": "pizzas",
+      "name": "EASY PEASY огуречный расколбас",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663729718_28-mykaleidoscope-ru-p-pitstsa-chetire-sezona-oboi-30.jpg",
+      "ingredients": ["Курица", "Лук", "Перец Халапено"],
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "20 см",
+          "price": 100
+        },
+        {
+          "name": "28 см",
+          "price": 200
+        },
+        {
+          "name": "30 см",
+          "price": 300
+        }
+      ],
+      "doughs": [
+        {
+          "name": "Традиционное",
+          "price": 100
+        },
+        {
+          "name": "Классическое",
+          "price": 200
+        }
+      ]
+    }
+  ],
+  "rolls": [
+    {
+      "id": 1,
+      "product": "rolls",
+      "rating": 1,
+      "name": "Филадельфия",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 400
+        },
+        {
+          "name": "10 шт",
+          "price": 650
+        }
+      ],
+      "ingredients": ["рис", "нори", "сыр", "лосось"]
+    },
+    {
+      "id": 2,
+      "product": "rolls",
+      "rating": 3,
+      "name": "Унаги",
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 450
+        },
+        {
+          "name": "10 шт",
+          "price": 900
+        }
+      ],
+      "ingredients": ["рис", "нори", "сыр", "угорь"]
+    },
+    {
+      "id": 3,
+      "product": "rolls",
+      "name": "Чики-Пики",
+      "rating": 4,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 500
+        }
+      ],
+      "ingredients": ["Огурцы", "лосось", "угорь"]
+    },
+    {
+      "id": 4,
+      "product": "rolls",
+      "name": "Маскарад",
+      "rating": 2,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 200
+        },
+        {
+          "name": "10 шт",
+          "price": 300
+        }
+      ],
+      "ingredients": ["Краб", "нори"]
+    },
+    {
+      "id": 5,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 5,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    },
+    {
+      "id": 6,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 4,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    },
+    {
+      "id": 7,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 2,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    },
+    {
+      "id": 8,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 2,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    },
+    {
+      "id": 9,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 2,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    },
+    {
+      "id": 10,
+      "product": "rolls",
+      "name": "СЭМ",
+      "rating": 2,
+      "photo": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663829084_46-mykaleidoscope-ru-p-firmennie-rolli-yeda-vkontakte-52.jpg",
+      "pieces": [
+        {
+          "name": "5 шт",
+          "price": 300
+        },
+        {
+          "name": "10 шт",
+          "price": 400
+        }
+      ],
+      "ingredients": ["Имбирь", "маслины", "нори", "васаби"]
+    }
+  ],
+  "other": [
+    {
+      "id": 1,
+      "rating": 3,
+      "product": "other",
+      "name": "Coca-Cola",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 120,
+      "description": "Содовая безалкогольная газированная напиток"
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "product": "other",
+      "name": "Sprite",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 30,
+      "description": "Лимонад безалкогольный"
+    },
+    {
+      "id": 3,
+      "rating": 2,
+      "product": "other",
+      "name": "Sprite",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 90,
+      "description": "Содовая безалкогольная газированная напиток"
+    },
+    {
+      "id": 4,
+      "rating": 4,
+      "product": "other",
+      "name": "Pepsi",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 90,
+      "description": "Содовая безалкогольная газированная напиток"
+    },
+    {
+      "id": 5,
+      "rating": 3,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    },
+    {
+      "id": 6,
+      "rating": 2,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    },
+    {
+      "id": 7,
+      "rating": 8,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    },
+    {
+      "id": 8,
+      "rating": 1,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    },
+    {
+      "id": 9,
+      "rating": 3,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    },
+    {
+      "id": 10,
+      "rating": 3,
+      "product": "other",
+      "name": "Чай",
+      "photo": "https://fikiwiki.com/uploads/posts/2022-02/1644920268_3-fikiwiki-com-p-krasivie-kartinki-koka-kola-3.jpg",
+      "price": 60,
+      "description": "Черный чай 'Нури'"
+    }
+  ]
+}

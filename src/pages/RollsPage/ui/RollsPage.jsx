@@ -1,7 +1,7 @@
 const RollsPage = () => {
 
     return (
-        <div>RollsPage</div>
+        <p>RollsPage</p>
      );
 }
 

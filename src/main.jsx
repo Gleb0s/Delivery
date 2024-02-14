@@ -6,6 +6,7 @@ import { ThemeProvider } from "./providers/ThemeProvider";
 import { Theme } from "./const/theme";
 import { Suspense } from "react";
 import { routerNavigations } from "./const/router";
+import { PageLoader } from "./ui/PageLoader";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     children: routerNavigations.map(({path, element}) => (
       {
         path: path,
-        element: <Suspense fallback={<div>Loading...</div>}>{element}</Suspense>,
+        element: <Suspense fallback={<PageLoader/>}>{element}</Suspense>,
       }
     )),
   },

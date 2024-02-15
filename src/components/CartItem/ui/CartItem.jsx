@@ -10,6 +10,7 @@ const CartItem = (props) => {
     product = "",
     ingredients = [],
     description = "",
+    price = 0,
   } = props;
 
   const ingredientsText = ingredients.join(", ");
@@ -31,7 +32,7 @@ const CartItem = (props) => {
           <Button border className={cls.button}>
             Выбрать
           </Button>
-          <span>От 0 Р</span>
+          {product === productsName.OTHERS ? <span>{price} Р</span> : <span>От {price} Р</span>}
         </div>
       </div>
     </article>

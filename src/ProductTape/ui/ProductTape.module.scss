@@ -1,0 +1,17 @@
+.title{
+    font: var(--font-l);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

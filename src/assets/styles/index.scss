@@ -48,3 +48,11 @@ p{
       transform: rotate(360deg);
     }
   }
+
+
+// Errors
+.error{
+  text-align: center;
+  color: var(--primary-color);
+  font: var(--font-l);
+}

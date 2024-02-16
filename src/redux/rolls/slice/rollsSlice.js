@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchPizzas } from "../services/fetchPizzas";
+import { fetchRolls } from "../services/fetchRolls";
 
 const initialState = {
-  pizzas: [],
+  rolls: [],
   isLoading: false,
   errors: null,
   page: 0,
@@ -10,8 +10,8 @@ const initialState = {
   hasMore: true,
 };
 
-export const pizzasSlice = createSlice({
-  name: "pizzas",
+export const rollsSlice = createSlice({
+  name: "rolls",
   initialState,
   reducers: {
     setPage: (state, action) => {
@@ -20,21 +20,21 @@ export const pizzasSlice = createSlice({
   },
 
   extraReducers: (builder) => {
-    builder.addCase(fetchPizzas.pending, (state) => {
+    builder.addCase(fetchRolls.pending, (state) => {
         state.errors = null;
         state.isLoading = true;
     });
-    builder.addCase(fetchPizzas.fulfilled, (state, action) => {
+    builder.addCase(fetchRolls.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.pizzas = [...state.pizzas, ...action.payload];
+        state.rolls = [...state.rolls, ...action.payload];
         state.hasMore = action.payload.length >= state.limit;
     });
-    builder.addCase(fetchPizzas.rejected, (state, action) => {
+    builder.addCase(fetchRolls.rejected, (state, action) => {
         state.isLoading = false;
         state.errors = action.payload;
     });
   },
 });
 
-export const { actions: pizzasActions } = pizzasSlice;
-export const { reducer: pizzasReducer } = pizzasSlice;
+export const { actions: rollsActions } = rollsSlice;
+export const { reducer: rollsReducer } = rollsSlice;

@@ -1,5 +1,6 @@
 import { CartItem } from "@/components/CartItem";
 import { ProductLayout } from "@/layouts/MainLayout/ProductLayout";
+import { ProductLayoutSkeleton } from "@/layouts/MainLayout/ProductLayout/ui/ProductLayout";
 import { getOthers, getOthersError, getOthersLoading } from "@/redux/others/selectors/othersSelectors";
 import { fetchNextOthersPage } from "@/redux/others/services/fetchNextOthersPage";
 import { useEffect } from "react";
@@ -43,6 +44,7 @@ const OthersPage = () => {
     return (
         <>
             <ProductLayout header={'Прочие товары'} item={item}/>
+            {loading && <ProductLayoutSkeleton/>}
             {!loading && <div ref={ref}></div>}
         </>
      );

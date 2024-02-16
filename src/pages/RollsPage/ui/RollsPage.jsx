@@ -1,5 +1,6 @@
 import { CartItem } from "@/components/CartItem";
 import { ProductLayout } from "@/layouts/MainLayout/ProductLayout";
+import { ProductLayoutSkeleton } from "@/layouts/MainLayout/ProductLayout/ui/ProductLayout";
 import { getRolls, getRollsError, getRollsLoading } from "@/redux/rolls/selectors/rollsSelectors";
 import { fetchNextRollsPage } from "@/redux/rolls/services/fetchNextRollsPage";
 import { calcMinPricePizzas } from "@/utils/calcMinPrice";
@@ -47,6 +48,7 @@ const RollsPage = () => {
     return (
         <>
             <ProductLayout header={'Роллы'} item={item}/>
+            {loading && <ProductLayoutSkeleton/>}
             {!loading && <div ref={ref}></div>}
         </>
      );
